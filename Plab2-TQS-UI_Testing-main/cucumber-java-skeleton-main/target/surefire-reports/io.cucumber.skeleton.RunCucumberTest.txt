@@ -1,0 +1,115 @@
+-------------------------------------------------------------------------------
+Test set: io.cucumber.skeleton.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 46, Failures: 1, Errors: 9, Skipped: 0, Time elapsed: 551.693 s <<< FAILURE! - in io.cucumber.skeleton.RunCucumberTest
+As a user I go to all categories.As a user I go to all categories - I see all categories  Time elapsed: 55.57 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+
+As a user I want to create an account.As a user I want to create an account - I accept cookies  Time elapsed: 4.565 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'didomi-popup-container didomi-popup__dialog didomi-popup-notice didomi-popup-notice-info-type didomi-popup-notice-with-data-processing')]"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'ERIC', ip: '192.168.0.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [17d566fb36f1d7e89afed29da3e3c4fa, findElement {using=xpath, value=//div[contains(@class,'didomi-popup-container didomi-popup__dialog didomi-popup-notice didomi-popup-notice-info-type didomi-popup-notice-with-data-processing')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\ERIC\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52753/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 17d566fb36f1d7e89afed29da3e3c4fa
+
+As a user I want to test Instagram button.As a user I want to test Instagram button - I accept cookies  Time elapsed: 8.17 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'didomi-popup-container didomi-popup__dialog didomi-popup-notice didomi-popup-notice-info-type didomi-popup-notice-with-data-processing')]"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'ERIC', ip: '192.168.0.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [17d566fb36f1d7e89afed29da3e3c4fa, findElement {using=xpath, value=//div[contains(@class,'didomi-popup-container didomi-popup__dialog didomi-popup-notice didomi-popup-notice-info-type didomi-popup-notice-with-data-processing')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\ERIC\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52753/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 17d566fb36f1d7e89afed29da3e3c4fa
+
+Testing search bar.Testing search bar - I accept cookies  Time elapsed: 4.86 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'didomi-popup-container didomi-popup__dialog didomi-popup-notice didomi-popup-notice-info-type didomi-popup-notice-with-data-processing')]"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'ERIC', ip: '192.168.0.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [17d566fb36f1d7e89afed29da3e3c4fa, findElement {using=xpath, value=//div[contains(@class,'didomi-popup-container didomi-popup__dialog didomi-popup-notice didomi-popup-notice-info-type didomi-popup-notice-with-data-processing')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\ERIC\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52753/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 17d566fb36f1d7e89afed29da3e3c4fa
+
+As a user I do the Authentication System.As a user I do the Authentication System - I accept cookies  Time elapsed: 1.923 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'didomi-popup-container didomi-popup__dialog didomi-popup-notice didomi-popup-notice-info-type didomi-popup-notice-with-data-processing')]"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'ERIC', ip: '192.168.0.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [17d566fb36f1d7e89afed29da3e3c4fa, findElement {using=xpath, value=//div[contains(@class,'didomi-popup-container didomi-popup__dialog didomi-popup-notice didomi-popup-notice-info-type didomi-popup-notice-with-data-processing')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\ERIC\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52753/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 17d566fb36f1d7e89afed29da3e3c4fa
+
+As a user I want to search in "Foro".As a user I want to search in "Foro" - I accept cookies  Time elapsed: 4.046 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'didomi-popup-container didomi-popup__dialog didomi-popup-notice didomi-popup-notice-info-type didomi-popup-notice-with-data-processing')]"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'ERIC', ip: '192.168.0.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [17d566fb36f1d7e89afed29da3e3c4fa, findElement {using=xpath, value=//div[contains(@class,'didomi-popup-container didomi-popup__dialog didomi-popup-notice didomi-popup-notice-info-type didomi-popup-notice-with-data-processing')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\ERIC\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52753/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 17d566fb36f1d7e89afed29da3e3c4fa
+
+As a user I want to change the language of the page.As a user I want to change the language of the page - I accept cookies  Time elapsed: 3.956 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'didomi-popup-container didomi-popup__dialog didomi-popup-notice didomi-popup-notice-info-type didomi-popup-notice-with-data-processing')]"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'ERIC', ip: '192.168.0.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [17d566fb36f1d7e89afed29da3e3c4fa, findElement {using=xpath, value=//div[contains(@class,'didomi-popup-container didomi-popup__dialog didomi-popup-notice didomi-popup-notice-info-type didomi-popup-notice-with-data-processing')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\ERIC\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52753/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 17d566fb36f1d7e89afed29da3e3c4fa
+
+As a user I want to test some categories.As a user I want to test some categories - I accept cookies  Time elapsed: 4.27 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'didomi-popup-container didomi-popup__dialog didomi-popup-notice didomi-popup-notice-info-type didomi-popup-notice-with-data-processing')]"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'ERIC', ip: '192.168.0.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [17d566fb36f1d7e89afed29da3e3c4fa, findElement {using=xpath, value=//div[contains(@class,'didomi-popup-container didomi-popup__dialog didomi-popup-notice didomi-popup-notice-info-type didomi-popup-notice-with-data-processing')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\ERIC\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52753/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 17d566fb36f1d7e89afed29da3e3c4fa
+
+As a user I want to see top 100 games.As a user I want to see top 100 games - I accept cookies  Time elapsed: 6.316 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'didomi-popup-container didomi-popup__dialog didomi-popup-notice didomi-popup-notice-info-type didomi-popup-notice-with-data-processing')]"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'ERIC', ip: '192.168.0.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [17d566fb36f1d7e89afed29da3e3c4fa, findElement {using=xpath, value=//div[contains(@class,'didomi-popup-container didomi-popup__dialog didomi-popup-notice didomi-popup-notice-info-type didomi-popup-notice-with-data-processing')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\ERIC\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52753/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 17d566fb36f1d7e89afed29da3e3c4fa
+
+As a user I want to go to "VidaExtra".As a user I want to go to "VidaExtra" - I accept cookies  Time elapsed: 3.577 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'didomi-popup-container didomi-popup__dialog didomi-popup-notice didomi-popup-notice-info-type didomi-popup-notice-with-data-processing')]"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'ERIC', ip: '192.168.0.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [17d566fb36f1d7e89afed29da3e3c4fa, findElement {using=xpath, value=//div[contains(@class,'didomi-popup-container didomi-popup__dialog didomi-popup-notice didomi-popup-notice-info-type didomi-popup-notice-with-data-processing')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\ERIC\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52753/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 17d566fb36f1d7e89afed29da3e3c4fa
+
